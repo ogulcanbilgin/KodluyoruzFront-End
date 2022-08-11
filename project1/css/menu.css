@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+.text-dred {
+    color: darkred;
+}
+
+.text-size {
+    font-size: 35px;
+}
+
+.text-ftb {
+    font-style: bold;
+}
+
+.text-p {
+    font-family: monospace;
+    font-size: 15px;
+    color: darkred;
+}
+
+.text-ff {
+    font-family: monospace;
+}
+
+.text-ta {
+    text-align: right;
+}
+
+.text-b {
+    color: black;
+    font-weight: bolder;
+}
+
+.text-bl {
+    color: black;
+}

@@ -1,0 +1,38 @@
+
+/* css kodları içerisinde yorum satırı açmamızı sağlar. Kapatmak için yine "* /" gerekir.
+Ctrl + Ö yorum satırı kısayolu 
+*/
+/* CSS te class -> .text-red {} */
+/* ID ise -> #id-bilgisi{} */
+
+h1 {
+    text-align: center;
+}
+
+.text-dred {
+    color: darkred;
+}
+
+p {
+    font-size: 20px;
+}
+
+.text-dcyan {
+    color: darkcyan;
+}
+
+.text-size {
+    font-size: 20px;
+}
+
+.text-cred {
+    color: red;
+}
+
+.text-ft {
+    font-style: sans-serif;
+}
+
+.text-ftb {
+    font-style: bold;
+}

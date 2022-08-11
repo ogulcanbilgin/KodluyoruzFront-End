@@ -1,0 +1,54 @@
+<!--CSS'e HTML öğesini nasıl bulacağını "selector" etiketiyle sağlarız.-->
+<!--Örneğin "h1 { color: red;  }" etiketi h1 başlığını kırmızı yapmamızı sağlar.
+HTML dosyası içerisine CSS dosyası şu kod ile çağırılabilir."<head> <link rel=”stylesheet” type=”text/css” href=”hello.css” /> </head>"
+Kısacası link etiketiyle.
+CSS selector tanımlamanın yolları ;
+Class Selector
+ID Selector
+Element Selector
+-->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Başlığı</title>
+    <link rel="stylesheet" href="css/deneme.css">
+</head>
+<body>
+
+    <h1>Beni Renklendir!</h1>
+    <!--h1 etiketinden sonra style="color:red;" yazarsak eğer h1 etiketinin rengini değiştirebiliriz.Örneğin;
+    font için ise "font-size yazabiliriz style etiketinden sonra" -->
+    <h2 style="color:blueviolet;font-size:32px;">
+        CSS Deneme
+    </h2>
+    <!--
+            Inline CSS -> etiket içerisinde style kullanımı tek bir yerde kullanılabilir.
+            Internal CSS -> Dosya içerisinde "head" kısmı içerisinde olmalı "style" etiketiyle yazılmalı.
+            örneğin head başlığı altında ;
+    <style>
+         h2 {
+            color:red;
+            font-size:64px;
+        }
+        p {
+            color:green;
+            font-size:20px;
+        }
+    </style>
+            External CSS -> "head" kısmı içerisinde "link belirtilerek yazılır."
+            <link rel=”stylesheet” type=”text/css” href=”dosyanınadı.css” /> </head>
+    -->
+    <!-- 
+        class kullanımı
+         <h1 class="text-red">Lorem, ipsum dolor.</h1> gibi olabilir.
+        Tek satırda birden fazla class kullanımı için ise class="text-red kısmından sonra boşlukla yazılabilir
+        class="text-red fs-30" gibi 
+    -->
+    <!--
+        Birden fazla heading belirtmek için CSS te "," kullanılabilir.
+        Örneğin h1, h2, h3, gibi
+    -->
+</body>
+</html>
