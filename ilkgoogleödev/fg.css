@@ -1,0 +1,110 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.pcenter {
+    text-align: center;
+}
+
+.pts {
+    font-weight: bolder;
+}
+
+.box {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+
+.divcent {
+    margin: auto;
+    width: 50%;
+    height: 10%;
+    border: 3px solid grey;
+    padding: 3px;
+    background-color: aliceblue;
+}
+
+#button1{
+    width: 150px;
+    height: 30px;
+}
+
+#button2{
+    width: 150px;
+    height: 30px;
+}
+
+#container{
+    text-align: center;
+}
+
+.button1 {
+    width: 150px;
+    height: 30px;
+}
+
+.divgre {
+    margin-left: 24.6%;
+    width: 140px;
+    height: 50px;
+    border: 2px;
+    padding: 12px;
+    background-color: #62B3AA;
+    
+}
+
+.textc {
+    margin: auto;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.divgre2 {
+    margin-left: 106%;
+    width: 200px;
+    height: 60px;
+    border: 2px;
+    padding: 12px;
+    background-color: #62B3AA;
+    
+}
+
+.greens {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.greens1 {
+    margin-left: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.textfts {
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.greens2 {
+    width: 412.2px;
+    margin-left: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.butt {
+    margin-right: 1%;
+    margin-top: 8%;
+    float: left;
+    height: 20px;
+}
+
+.marg {
+    margin-left: 1%;
+}
